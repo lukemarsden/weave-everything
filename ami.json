@@ -43,8 +43,8 @@
       "sudo docker pull weaveworksdemos/user-db",
       "echo caching weave-kube images, see https://github.com/weaveworks/weave-kube/blob/master/weave-daemonset.yaml",
       "sudo docker pull weaveworks/weave-kube:1.6.1",
-      "echo caching fluxy",
-      "sudo docker pull quay.io/weaveworks/fluxy"
+      "echo caching a hopefully recent fluxy",
+      "sudo docker pull weaveworks/fluxy"
     ]
   }]
 }
